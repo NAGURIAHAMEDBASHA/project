@@ -4,11 +4,11 @@
   
   <groupId>com.flipkart</groupId>
   <artifactId>flipkart</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
 
-  <name>flipkart</name>
-
+  <name>flipkart Maven Webapp</name>
+  <url>http://maven.apache.org</url>
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -22,5 +22,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+  <build>
+    <finalName>flipkart</finalName>
+  </build>
 </project>
